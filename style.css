@@ -7,7 +7,7 @@
 }
 
 h1, h2 {
-  color: #F5F7FA;
+  color: #000000;
   text-align: center;
 }
 
@@ -22,7 +22,9 @@ h2 {
 }
 
 body {
-  background: #A0D468;
+  /* background: #A0D468; */
+  background-image: url("assets/img/background.jpg");
+  width: auto;
 }
 
 table {
@@ -104,7 +106,7 @@ form span {
 }
 
 #type {
-  width: 50px;
+  width: 100px;
 }
 
 #date {

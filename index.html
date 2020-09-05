@@ -1,24 +1,25 @@
-<head>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
+<body>
   
   <h1>Income Expenses Report</h1>
   <h2>Add a new item:</h2>
-  
   <div id="form-box">
-    <form>
-      <div>
+    <form>Add a new
+
+      <div class="ts">
         <span>Type:</span>
         <select name="type">
           <option value="income">Income</option>
-          <option value="ekspenses">Expenses</option>
+          <option value="expenses">Expenses</option>
         </select>
       </div>
   
-      <div>
-        <span>Name:</span> <input type="text" name="item-name" placeholder="What is this for?">
+      <div class="ts">
+        <span>Name:</span> <input value="text" id ="title" type="text" name="item-name" placeholder="What is this for?">
       </div>
    
       <div>
@@ -28,7 +29,7 @@
     </form>
   </div>
   
-  <div id="button"><span>Add a new expense</span></div>
+  <div id="button"><span>Add a new </span></div>
   
   <table>
     <tr>
@@ -41,3 +42,6 @@
     </tr>
   
   </table>
+<script src="app.js"></script>
+</body>
+</html>
